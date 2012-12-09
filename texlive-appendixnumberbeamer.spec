@@ -45,3 +45,11 @@ appendixes are numbered starting from one.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Fri Apr 13 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120329-1
++ Revision: 790522
+- Import texlive-appendixnumberbeamer
+- Import texlive-appendixnumberbeamer
+
