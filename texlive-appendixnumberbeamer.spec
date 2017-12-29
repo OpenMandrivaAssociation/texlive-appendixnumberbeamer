@@ -5,8 +5,8 @@
 # catalog-license gpl3
 # catalog-version undef
 Name:		texlive-appendixnumberbeamer
-Version:	20120329
-Release:	9
+Version:	20170414
+Release:	1
 Summary:	Manage frame numbering in appendixes in beamer
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/beamer-contrib/appendixnumberbeamer
