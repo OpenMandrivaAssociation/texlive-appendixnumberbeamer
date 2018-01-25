@@ -1,5 +1,5 @@
 Name:		texlive-appendixnumberbeamer
-Version:	20180116
+Version:	1.2
 Release:	1
 Summary:	Manage frame numbering in appendixes in beamer
 Group:		Publishing
