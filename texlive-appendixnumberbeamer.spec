@@ -1,12 +1,12 @@
 Name:		texlive-appendixnumberbeamer
-Version:	1.2
-Release:	3
+Version:	46317
+Release:	1
 Summary:	Manage frame numbering in appendixes in beamer
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/beamer-contrib/appendixnumberbeamer
 License:	GPL3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/appendixnumberbeamer.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/appendixnumberbeamer.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/appendixnumberbeamer.r46317.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/appendixnumberbeamer.doc.r46317.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -18,12 +18,12 @@ is not counted in the frame count of the presentation;
 appendixes are numbered starting from one.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -32,7 +32,7 @@ appendixes are numbered starting from one.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
