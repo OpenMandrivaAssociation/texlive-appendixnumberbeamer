@@ -3,7 +3,7 @@ Version:	46317
 Release:	2
 Summary:	Manage frame numbering in appendixes in beamer
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/beamer-contrib/appendixnumberbeamer
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/beamer-contrib/appendixnumberbeamer
 License:	GPL3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/appendixnumberbeamer.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/appendixnumberbeamer.doc.r%{version}.tar.xz
